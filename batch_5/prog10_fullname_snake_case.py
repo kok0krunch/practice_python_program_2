@@ -8,3 +8,6 @@ lower_fullname = fullname.lower().split()
 
 # Join the words in fullname with underscore.
 snake_case = "_".join(lower_fullname)
+
+# Print the fullname in snake case.
+print("Fullname in snake case is:", snake_case)
