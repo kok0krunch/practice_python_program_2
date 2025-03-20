@@ -5,3 +5,6 @@ fullname = input("Enter your fullname: ")
 
 # Format fullname in a lower case and split it by words.
 lower_fullname = fullname.lower().split()
+
+# Join the words in fullname with underscore.
+snake_case = "_".join(lower_fullname)
