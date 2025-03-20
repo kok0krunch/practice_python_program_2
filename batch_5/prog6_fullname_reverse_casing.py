@@ -3,3 +3,6 @@
 
 # Ask user to input their fullname
 fullname = input("Enter your fullname: ")
+
+# Print each character of the fullname in reverse casing
+print("Your fullname in reverse casing is:", fullname.swapcase())
