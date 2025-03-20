@@ -6,3 +6,6 @@ number = input("Enter a number (0-1000): ")
 
 # Format the nuber to 6 digit with leading zeros
 formatted_number = number.zfill(6)
+
+# Print the formatted number
+print(f"The number in 6 digit format is: {formatted_number}")
