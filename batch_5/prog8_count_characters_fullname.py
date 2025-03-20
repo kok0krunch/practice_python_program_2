@@ -2,3 +2,6 @@
 
 # Ask user to input their fullname
 fullname = input("Enter your fullname: ")
+
+# Count the number of characters in the fullname
+num_characters = len(fullname)
