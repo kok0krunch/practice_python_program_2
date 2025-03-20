@@ -5,3 +5,6 @@ fullname = input("Enter your fullname: ")
 
 # Count the number of characters in the fullname
 num_characters = len(fullname.replace(" ", ""))
+
+# Print the number of characters in the fullname
+print("Number of characters in your fullname:", num_characters)
