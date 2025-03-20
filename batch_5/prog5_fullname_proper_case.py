@@ -2,3 +2,6 @@
 
 # Ask user to input their fullname
 fullname = input("Enter your fullname: ")
+
+# Print the fullname in proper casing
+print("Your fullname in proper casing is:", fullname.title())
