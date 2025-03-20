@@ -4,4 +4,4 @@
 fullname = input("Enter your fullname: ")
 
 # Count the number of characters in the fullname
-num_characters = len(fullname)
+num_characters = len(fullname.replace(" ", ""))
