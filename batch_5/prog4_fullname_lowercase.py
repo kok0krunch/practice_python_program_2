@@ -2,3 +2,6 @@
 
 # Ask user to input their fullname
 fullname = input("Enter your fullname: ")
+
+# Print the fullname in all lower case
+print("Your fullname in all lower case is:", fullname.lower())
