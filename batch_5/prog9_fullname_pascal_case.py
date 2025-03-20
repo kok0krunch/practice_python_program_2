@@ -8,3 +8,6 @@ proper_fullname = fullname.title().split()
 
 # Remove spaces by joining the words together.
 pascal_fullname = "".join(proper_fullname)
+
+# Print the fullname in pascal case
+print("Fullname in pascal case is:", pascal_fullname)
