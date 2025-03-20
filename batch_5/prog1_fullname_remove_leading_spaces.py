@@ -5,3 +5,6 @@ name = input("Enter your full name with leading spaces: ")
 
 # Remove leading spaces using lstrip() method
 fullname = name.lstrip()
+
+#Print the fullname without leading spaces
+print(F"Fullname without leading spaces: {fullname}")
